@@ -231,4 +231,11 @@ draw_rectangle(buttonOffset_x+64, buttonOffset_y,buttonOffset_x + buttonWidth + 
 draw_text(buttonOffset_x+2+64, buttonOffset_y+2, "Load");
 draw_set_color(c_white);
 
+draw_set_color(c_grey)
+draw_rectangle(buttonOffset_x+128, buttonOffset_y, buttonOffset_x + buttonWidth + 136, buttonOffset_y + buttonHeight, false);
+draw_set_color(c_black);
+draw_rectangle(buttonOffset_x+128, buttonOffset_y,buttonOffset_x + buttonWidth + 136, buttonOffset_y + buttonHeight, true);
+draw_text(buttonOffset_x+2+128, buttonOffset_y+2, "Viewer");
+draw_set_color(c_white);
+
 #endregion

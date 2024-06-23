@@ -33,6 +33,9 @@
   "properties": [],
   "solid": false,
   "spriteId": null,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sprBattleBG_1",
+    "path": "sprites/sprBattleBG_1/sprBattleBG_1.yy",
+  },
   "visible": true,
 }

@@ -30,7 +30,7 @@ for (var i = 0; i < array_length(layerEditors); i++)
 	{
 		if (mouse_check_button_pressed(mb_left))
 		{
-			array_insert(layers, i+1, new BattleBackgroundLayer(spr_example_bg01));
+			array_insert(layers, i+1, new BattleBackgroundLayer(sprBattleBG_1));
 			array_insert(layerEditors, i+1, new BattleBackgroundLayer_Editor());
 		}
 	}

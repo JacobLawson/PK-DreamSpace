@@ -27,6 +27,16 @@ if (point_in_rectangle(mouse_x, mouse_y, buttonOffset_x + 64, buttonOffset_y, bu
 	}
 }
 
+if (point_in_rectangle(mouse_x, mouse_y, buttonOffset_x+128, buttonOffset_y, buttonOffset_x + buttonWidth + 136, buttonOffset_y + buttonHeight))
+{
+	if (mouse_check_button_pressed(mb_left))
+	{
+		surface_resize(application_surface, 256, 256);
+		window_set_size(256, 256)
+		room_goto(Viewer);
+	}
+}
+
 #endregion
 
 
