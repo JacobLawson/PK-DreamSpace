@@ -69,6 +69,7 @@
     {"id":{"name":"sprBattleBG_15","path":"sprites/sprBattleBG_15/sprBattleBG_15.yy",},},
     {"id":{"name":"sprBattleBG_41","path":"sprites/sprBattleBG_41/sprBattleBG_41.yy",},},
     {"id":{"name":"sprBattleBG_83","path":"sprites/sprBattleBG_83/sprBattleBG_83.yy",},},
+    {"id":{"name":"pk_Editor","path":"scripts/pk_Editor/pk_Editor.yy",},},
     {"id":{"name":"sprBattleBG_115","path":"sprites/sprBattleBG_115/sprBattleBG_115.yy",},},
     {"id":{"name":"EditorSave","path":"scripts/EditorSave/EditorSave.yy",},},
     {"id":{"name":"sprBattleBG_40","path":"sprites/sprBattleBG_40/sprBattleBG_40.yy",},},

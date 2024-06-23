@@ -52,6 +52,7 @@
     {"name":"sprBattleBG_15","order":29,"path":"sprites/sprBattleBG_15/sprBattleBG_15.yy",},
     {"name":"sprBattleBG_41","order":58,"path":"sprites/sprBattleBG_41/sprBattleBG_41.yy",},
     {"name":"sprBattleBG_83","order":104,"path":"sprites/sprBattleBG_83/sprBattleBG_83.yy",},
+    {"name":"pk_Editor","order":7,"path":"scripts/pk_Editor/pk_Editor.yy",},
     {"name":"sprBattleBG_115","order":18,"path":"sprites/sprBattleBG_115/sprBattleBG_115.yy",},
     {"name":"EditorSave","order":2,"path":"scripts/EditorSave/EditorSave.yy",},
     {"name":"sprBattleBG_40","order":57,"path":"sprites/sprBattleBG_40/sprBattleBG_40.yy",},
