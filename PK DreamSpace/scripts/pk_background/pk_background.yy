@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "BattleBackgroundLayer",
+  "name": "pk_background",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

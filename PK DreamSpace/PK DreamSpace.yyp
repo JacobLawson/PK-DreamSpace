@@ -162,7 +162,7 @@
     {"id":{"name":"sprBattleBG_108","path":"sprites/sprBattleBG_108/sprBattleBG_108.yy",},},
     {"id":{"name":"sprBattleBG_63","path":"sprites/sprBattleBG_63/sprBattleBG_63.yy",},},
     {"id":{"name":"sprBattleBG_101","path":"sprites/sprBattleBG_101/sprBattleBG_101.yy",},},
-    {"id":{"name":"BattleBackgroundLayer","path":"scripts/BattleBackgroundLayer/BattleBackgroundLayer.yy",},},
+    {"id":{"name":"pk_background","path":"scripts/pk_background/pk_background.yy",},},
     {"id":{"name":"sprBattleBG_70","path":"sprites/sprBattleBG_70/sprBattleBG_70.yy",},},
     {"id":{"name":"sprBattleBG_103","path":"sprites/sprBattleBG_103/sprBattleBG_103.yy",},},
     {"id":{"name":"sprBattleBG_22","path":"sprites/sprBattleBG_22/sprBattleBG_22.yy",},},
