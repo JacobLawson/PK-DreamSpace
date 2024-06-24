@@ -46,3 +46,6 @@ editorScroll = 0;
 xAmplitudeSliderSelected = false;
 
 layerEditors = EditorRefresh(layers);
+
+recordingGIF = false;
+saveGif = noone;

@@ -239,3 +239,7 @@ draw_text(buttonOffset_x+2+128, buttonOffset_y+2, "Viewer");
 draw_set_color(c_white);
 
 #endregion
+
+#region Draw Record
+draw_sprite(spr_editor_buttons_record, recordingGIF, 216, 270);
+#endregion

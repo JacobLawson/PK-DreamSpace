@@ -16,17 +16,19 @@ if (point_in_rectangle(mouse_x, mouse_y, buttonOffset_x, buttonOffset_y, buttonO
 	}
 }
 
+//load button
 if (point_in_rectangle(mouse_x, mouse_y, buttonOffset_x + 64, buttonOffset_y, buttonOffset_x + buttonWidth + 64, buttonOffset_y + buttonHeight))
 {
 	if (mouse_check_button_pressed(mb_left))
 	{
-		//save data	
+		//load data	
 		layers = EditorLoad();
 		layerEditors = EditorRefresh(layers);
 		show_debug_message(layerEditors);
 	}
 }
 
+//viewer button
 if (point_in_rectangle(mouse_x, mouse_y, buttonOffset_x+128, buttonOffset_y, buttonOffset_x + buttonWidth + 136, buttonOffset_y + buttonHeight))
 {
 	if (mouse_check_button_pressed(mb_left))
@@ -34,6 +36,22 @@ if (point_in_rectangle(mouse_x, mouse_y, buttonOffset_x+128, buttonOffset_y, but
 		surface_resize(application_surface, 256, 256);
 		window_set_size(256, 256)
 		room_goto(Viewer);
+	}
+}
+
+//gif record button
+if (point_in_rectangle(mouse_x, mouse_y, 216, 270, 216 + 32, 270 + 32))
+{
+	if (mouse_check_button_pressed(mb_left))
+	{
+		recordingGIF = !recordingGIF;
+		if (recordingGIF) {
+			saveGif = gif_open(256, 256);
+		}
+		else {
+			var fileName = get_save_filename("gif|*.gif", "");
+			gif_save(saveGif, fileName);	
+		}
 	}
 }
 
